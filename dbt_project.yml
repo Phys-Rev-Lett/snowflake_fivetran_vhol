@@ -37,5 +37,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 #       example:
 #           materialized: view
 
-vars:
-    google_ads_schema: 'GOOGLE_ADS_DEMO'
+# vars:
+#     google_ads_schema: 'GOOGLE_ADS_DEMO'
