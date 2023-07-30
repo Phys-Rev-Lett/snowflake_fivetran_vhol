@@ -3,6 +3,6 @@ select
   status,
   count(*)as order_count
 from
-  {{ source('','') }}
+  {{ source('google_ads_demo.clik_performance','CLIK_PERFORMANCE') }}
 group by
   1,2
