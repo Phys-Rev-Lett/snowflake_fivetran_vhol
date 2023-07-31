@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: google_ads_demo.clik_performance
     database: PC_FIVETRAN_DB
-    schema: GOOGLE_ADS_DBT #_GOOGLE_ADS
+    schema: GOOGLE_ADS_DBT_GOOGLE_ADS
     tables: 
       - name: CLIK_PERFORMANCE
